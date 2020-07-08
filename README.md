@@ -29,6 +29,13 @@ $ kubectl design deploy test --image busybox
 ![](demo.gif)
 
 
+#### Configure prefered Editor.
+- `kubectl-design` uses environment variable `EDITOR`, so it can be used to set prefered editor  
+  - `vim` is default editor, if no `EDITOR` is not set.
+```
+$ export EDITOR=nano
+```
+
 #### Resources Supported
 
 ```
